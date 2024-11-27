@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  #navbar {
+    width: 600px;
+    display: flex;
+  
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fbf7e3;
+    padding: 10px;
+    border-radius: 30px;
+    margin-top: 20px;
+  }
+  
+  .navItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fcdf7f;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    margin: 0 5px;
+    font-size: 0.9em;
+    color: #612406;
+    cursor: pointer;
+  }
+  
+  #navItemShop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fcdf7f;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.2em;
+    color: #612406;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  #beeIcon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    background-image: url("../imgs/logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+
+  
+
+  /* Honey card */
+
