@@ -1,60 +1,156 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-  }
-  
-  #navbar {
-    width: 600px;
-    display: flex;
-  
-    justify-content: space-between;
-    align-items: center;
-    background-color: #fbf7e3;
-    padding: 10px;
-    border-radius: 30px;
-    margin-top: 20px;
-  }
-  
-  .navItem {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #fcdf7f;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 20px;
-    margin: 0 5px;
-    font-size: 0.9em;
-    color: #612406;
-    cursor: pointer;
-  }
-  
-  #navItemShop {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #fcdf7f;
-    padding: 15px 20px;
-    border: none;
-    border-radius: 25px;
-    font-size: 1.2em;
-    color: #612406;
-    font-weight: bold;
-    cursor: pointer;
-  }
-  
-  #beeIcon {
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
-    background-image: url("../imgs/logo.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
-  
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+    
+    #navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #fbf7e3;
+      padding: 10px;
+    }
+    
+    .navItem {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #fcdf7f;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 20px;
+      margin: 0 5px;
+      font-size: 0.9em;
+      color: #612406;
+      cursor: pointer;
+    }
+    
+    #navItemShop {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #fcdf7f;
+      padding: 15px 20px;
+      border: none;
+      border-radius: 25px;
+      font-size: 1.2em;
+      color: #612406;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    
+    #beeIcon {
+      width: 30px;
+      height: 30px;
+      margin-right: 10px;
+      background-image: url("../imgs/logo.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
 
-  
+    h1 {
+        color: #612406;
+        padding-left: 10px;
+        font-weight: 800;
+    }
+    
+    /* Honey card  */
+    .productCard1-2 {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 20px;
+    }
 
-  /* Honey card */
+    #productCard, #productCard2 {
+        flex-basis: calc(50% - 30px); 
+        margin: 0 0 20px 0;
+    }
 
+    #productCard {
+        background-color: #fff9e7;
+        border-radius: 50px; 
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        width: 250px; 
+        height: 300px; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        text-align: center;
+        overflow: hidden;
+        margin-left: 20px;
+    }
+
+    #imageContainer img {
+        width: 100%;
+        height: 200px;
+        object-position: center;
+        object-fit: cover;
+    }
+    
+    
+      #content {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 20px;
+        text-align: left;
+        padding: 15px;
+        width: 100%;
+        box-sizing: border-box;
+        flex-direction: column;
+        
+      }
+      
+      #content h2 {
+        font-size: 12px;
+        color: #5a381f;
+        margin: 3px 0 5px;
+      }
+      
+      #content p {
+        font-size: 10px;
+        color: #a87e4f;
+        margin-top: -8px;
+      }
+      
+      #price {
+        font-size: 12px;
+        color: #5a381f;
+       align-self: flex-start;
+       margin-left: auto;
+       margin-top: -65px;
+       padding-bottom: 20px;
+       padding-right: 40px;
+      }
+      
+      #addToCart {
+        margin-bottom: 8px;
+        margin-top: 5px;
+        background-color: #ffe084;
+        color: #5a381f;
+        border: none;
+        border-radius: 30px;
+        padding: 10px 20px;
+        font-size: 12px;
+        cursor: pointer;
+      }
+
+      #productCard2 {
+        background-color: #fff9e7;
+        border-radius: 50px; 
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        width: 250px; 
+        height: 300px; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        text-align: center;
+        overflow: hidden;
+        margin-left: 20px;
+    }
+
+  }
