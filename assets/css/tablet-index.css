@@ -63,10 +63,7 @@
         margin: 0 20px;
     }
 
-    #productCard, #productCard2 {
-        flex-basis: calc(50% - 30px); 
-        margin: 0 0 20px 0;
-    }
+  
 
     #productCard {
         background-color: #fff9e7;
