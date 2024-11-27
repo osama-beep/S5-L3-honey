@@ -10,7 +10,10 @@
       justify-content: space-between;
       align-items: center;
       background-color: #fbf7e3;
-      padding: 10px;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      padding-left: 20px;
+      padding-right: 20px;
     }
     
     .navItem {
@@ -25,6 +28,8 @@
       font-size: 0.9em;
       color: #612406;
       cursor: pointer;
+      font-weight: bold;
+      width: 120px;
     }
     
     #navItemShop {
@@ -32,40 +37,46 @@
       align-items: center;
       justify-content: center;
       background-color: #fcdf7f;
-      padding: 15px 20px;
+      padding: 18px 25px;
       border: none;
-      border-radius: 25px;
-      font-size: 1.2em;
+      border-radius: 30px;
+      font-size: 1.3em;
       color: #612406;
       font-weight: bold;
       cursor: pointer;
+      width: 160px;
     }
     
     #beeIcon {
-      width: 30px;
-      height: 30px;
-      margin-right: 10px;
+      width: 40px;
+      height: 35px;
+      margin-right: 12px;
       background-image: url("../imgs/logo.png");
       background-size: contain;
       background-repeat: no-repeat;
     }
 
     h1 {
+        font-size: 32px;
         color: #612406;
         padding-left: 10px;
         font-weight: 800;
     }
     
     /* Honey card  */
-    .productCard1-2 {
+    .productCard1-2, .productCard3-4 {
         display: flex;
         justify-content: space-between;
         margin: 0 20px;
     }
 
+    .productCard3-4 {
+        margin-top: 20px;
+    }
+
   
 
-    #productCard {
+    #productCard, #productCard2, #productCard3, #productCard4 {
         background-color: #fff9e7;
         border-radius: 50px; 
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -78,6 +89,7 @@
         text-align: center;
         overflow: hidden;
         margin-left: 20px;
+        margin-right: 20px;
     }
 
     #imageContainer img {
@@ -135,19 +147,64 @@
         cursor: pointer;
       }
 
-      #productCard2 {
-        background-color: #fff9e7;
-        border-radius: 50px; 
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        width: 250px; 
-        height: 300px; 
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 0px;
-        text-align: center;
-        overflow: hidden;
-        margin-left: 20px;
+   
+
+    #news {
+        font-size: 32px;
+        color: #612406;
+        margin-top: 40px;
+        padding-left: 10px;
+        font-weight: 800;
     }
 
-  }
+    .container {
+        padding: 20px;
+        padding-bottom: 0px;
+        max-width: 900px; 
+        margin: 0 auto;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        background-color: #fff8e1;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .text {
+        padding: 20px;
+        order: 2;
+    }
+
+    .honey {
+        font-size: 24px;
+        color: #612406;
+        margin-bottom: 15px;
+        padding: 20px;
+        text-align: left;
+        font-weight: 800;
+    }
+
+    .text p {
+        text-align: justify;
+        font-size: 14px;
+        line-height: 1.6;
+        color: #612406
+    }
+
+    .image {
+        order: 3;
+        margin: 0;
+        padding: 20px;
+    }
+
+    .image img {
+        width: 100%;
+        height: auto;
+        max-height: 400px; 
+        object-fit: cover;
+    }
+}
